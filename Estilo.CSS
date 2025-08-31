@@ -1,0 +1,317 @@
+body {
+    margin: 0;
+    padding: 0;
+    padding-top: 50px;  
+    font-family: Arial, sans-serif;
+    font-size: 16px;  
+    background-color: #f4f4f4;  
+    color: #333;  
+}
+
+header {
+    position: fixed;  
+    top: 0;  
+    width: 100%;  
+    z-index: 1000;
+    background-color: #333;  
+}
+
+
+nav ul {
+    list-style: none;  
+    display: flex;  
+    justify-content: center; 
+    background-color: #333;  
+    padding: 20px;
+    font-size: 18px;  
+    margin: 0;  
+}
+
+nav ul li {
+    margin: 0 15px;  
+}
+
+nav ul li a {
+    color: white;  
+    text-decoration: none;  
+}
+
+nav ul li a:hover {
+    color: #ccc;  
+}
+
+/* Estilo do conteúdo principal */
+main {
+    max-width: 800px;  
+    margin: 20px auto;  
+    padding: 20px;
+    background-color: white;  
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);  
+    font-size: 18px;  
+}
+
+/* Estilo do rodapé */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
+
+footer a {
+    color: white;  
+    text-decoration: none;  
+    margin-left: 10px;  
+}
+
+footer a:hover {
+    text-decoration: underline;  
+}
+/* Estilos específicos para a seção Sobre Mim */
+#sobre-mim {
+    text-align: center;  
+    padding: 20px;  
+    border-radius: 8px;  
+    background-color: #ffffff;  /
+}
+
+/* Estilo do título principal */
+#sobre-mim h1 {
+    font-size: 2.5em;  
+    color: #333333;  
+    margin-bottom: 20px;  
+}
+
+/* Estilo da imagem pessoal */
+#sobre-mim img {
+    display: block;  
+    margin: 0 auto 20px auto;  
+    border-radius: 50%;  
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  
+    max-width: 200px;  
+}
+
+/* Estilo do parágrafo descritivo */
+#sobre-mim p {
+    font-size: 1.1em;  
+    line-height: 1.6; 
+    margin: 0 auto;  
+    max-width: 600px; 
+    text-align: justify;  
+}
+
+/* Estilo do subtítulo de hobbies */
+#sobre-mim h2 {
+    font-size: 1.8em;  
+    color: #555555;  
+    margin-top: 30px;  
+    margin-bottom: 10px;  
+}
+
+/* Estilo da lista de hobbies */
+#sobre-mim ul {
+    list-style-type: disc;  
+    padding-left: 40px;  
+    margin: 0 auto;  
+    max-width: 600px;  
+    text-align: left; 
+}
+
+#sobre-mim ul li {
+    margin-bottom: 10px;  
+    font-size: 1em;  
+}
+footer a {
+    color: white;  
+    text-decoration: none;  
+    margin-left: 10px;  
+}
+
+footer a:hover {
+    text-decoration: underline;  
+}
+/* Estilos específicos para a seção de formação educacional */
+#formacao {
+    text-align: center;  
+    background-color: #fff;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+#formacao h1 {
+    font-size: 2.5em;  
+    color: #333333;  
+    margin-bottom: 20px;  
+}
+
+/* Estilo de cada item de formação */
+.formacao-item {
+    margin-bottom: 30px;  
+    text-align: justify;  
+    max-width: 600px;  
+    margin-left: auto;  
+    margin-right: auto;
+
+}
+
+.formacao-item .logo-container {
+    display: flex;  
+    align-items: center;  
+    margin-bottom: 5px;  
+}
+
+.formacao-item img {
+    margin-right: 15px;  
+    max-width: 30px;  
+    height: auto;  
+}
+
+.formacao-item h2 {
+    font-size: 1.2em;  
+    color: #555555;  
+    margin: 0;  
+    display: flex;
+    height: 30px; 
+}
+
+.formacao-item h3 {
+    font-size: 1.2em;  
+    color: #666666;  
+    margin-bottom: 1px;
+}
+
+
+.formacao-item p {
+    font-size: 1.1em;  
+    line-height: 1.5;  
+    margin-bottom: 10px;  
+}
+
+/* Estilos específicos para a seção de portfolio */
+.portfolio-item {
+    background-color: #fff;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+#portfolio h1 {
+    text-align: center;  
+    padding: 20px;  
+    border-radius: 8px;  
+    background-color: #ffffff; 
+}
+
+#portfolio h1 {
+    font-size: 2.5em;  
+    color: #333333;  
+    margin-bottom: 20px;  
+}
+
+.portfolio-item:hover {
+    transform: translateY(-5px);
+}
+
+.portfolio-item h2, .portfolio-item h3 {
+    color: #555555;
+    margin-bottom: 1px;
+}
+
+.portfolio-item p {
+    margin-bottom: 1px;
+}
+
+.portfolio-item strong {
+    color: #333;
+}
+
+/* LinkedIn link styling */
+#portfolio p a {
+    color: #555555;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#portfolio p a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+        gap: 16px;
+    }
+
+    #portfolio h1 {
+        font-size: 2.5em;  
+    }
+
+    .portfolio-item {
+        padding: 16px;
+    }
+}
+
+/* Estilos específicos para a seção de contato */
+#contato {
+    text-align: center;  
+    padding: 20px;  
+    border-radius: 8px;  
+    background-color: #ffffff; 
+}
+
+#contato h1 {
+    font-size: 2.5em;  
+    color: #333333;  
+    margin-bottom: 20px;  
+}
+
+#contato p {
+    font-size: 1.1em;  
+    margin-bottom: 20px;  
+}
+
+form {
+    display: flex;  
+    flex-direction: column; 
+    max-width: 500px;  
+    margin: 0 auto; 
+}
+
+form label {
+    font-size: 1.1em;  
+    color: #555555;  
+    margin-bottom: 5px;  
+    text-align: left;  
+}
+
+form input, form textarea {
+    padding: 10px;  
+    margin-bottom: 15px;  
+    border: 1px solid #cccccc;  
+    border-radius: 4px;  
+    font-size: 1em;  
+}
+
+form textarea {
+    resize: vertical;  
+    min-height: 100px;  
+}
+
+form button {
+    padding: 10px; 
+    background-color: #333333;  
+    color: #ffffff;  
+    border: none;  
+    border-radius: 4px;  
+    cursor: pointer;  
+    font-size: 1.1em;  /
+}
+
+form button:hover {
+    background-color: #555555;  
+}
